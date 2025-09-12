@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
     <Document>
-        <name>parkingCoverage.kml</name>
+        <name>FactorySites.kml</name>
         <open>0</open>
         <Style id="polyStyle">
             <PolyStyle>
@@ -12,26 +12,43 @@
             </PolyStyle>
         </Style>
         <Placemark>
-            <name>SCC</name>
+            <name>Shangai</name>
             <styleUrl>#polyStyle</styleUrl>
             <Polygon>
                 <altitudeMode>clampToGround</altitudeMode>
                 <outerBoundaryIs>
                     <LinearRing>
                         <coordinates>
-                            43.85479756184761, 18.40742105457072
-43.85446682378709, 18.407439830033343
-43.85430243819836, 18.407530359207357
-43.85406066878329, 18.407562545714715
-43.853679638189504, 18.40654867072882
-43.854638715741864, 18.406425357014587
-43.854851775308006, 18.40658775012653
-43.85479756184761, 18.40742105457072
+                            121.763851, 30.866874
+                            121.766215, 30.866457
+						    121.768401, 30.866495
+							121.769991, 30.866552
+							121.771935, 30.867538
+							121.772377, 30.878779
+							121.768004, 30.879632
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+		<Placemark>
+            <name>Frankfurt</name>
+            <styleUrl>#polyStyle</styleUrl>
+            <Polygon>
+                <altitudeMode>clampToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+							8.628384, 50.087672
+                            8.619543, 50.087775
+                            8.620009, 50.085671
+						    8.618948, 50.084980
+							8.618980, 50.084248
+							8.628867, 50.084691
                         </coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
         </Placemark>
     </Document>
-
 </kml>
