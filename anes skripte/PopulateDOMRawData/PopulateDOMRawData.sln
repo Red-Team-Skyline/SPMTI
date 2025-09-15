@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopulateDOMRawData", "PopulateDOMRawData\PopulateDOMRawData.csproj", "{C70163A6-718E-4D30-BB2A-7DBDB129DC35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{A3DC032A-0AEB-475C-93C0-D5390F1FBDBA}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C70163A6-718E-4D30-BB2A-7DBDB129DC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70163A6-718E-4D30-BB2A-7DBDB129DC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70163A6-718E-4D30-BB2A-7DBDB129DC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70163A6-718E-4D30-BB2A-7DBDB129DC35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3DC032A-0AEB-475C-93C0-D5390F1FBDBA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A913EAF3-3A2A-4AEC-8A12-73C45C28069F}
+	EndGlobalSection
+EndGlobal

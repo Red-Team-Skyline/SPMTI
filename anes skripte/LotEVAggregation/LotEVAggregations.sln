@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotEVAggregations", "LotEVAggregation\LotEVAggregations.csproj", "{2973A0AB-8982-46FE-9520-C15C3B45D4DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{5739D303-E588-41CB-B2A1-5DA6CBAE63F7}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2973A0AB-8982-46FE-9520-C15C3B45D4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2973A0AB-8982-46FE-9520-C15C3B45D4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2973A0AB-8982-46FE-9520-C15C3B45D4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2973A0AB-8982-46FE-9520-C15C3B45D4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5739D303-E588-41CB-B2A1-5DA6CBAE63F7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFF48E1C-F750-4C63-87DD-CFAFF091E082}
+	EndGlobalSection
+EndGlobal
